@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FAD104</color>
+    <color name="colorPrimaryDark">#1D9259</color>
+    <color name="colorAccent">#651FFF</color>
+    <color name="startColor">#868CC4</color>
+    <color name="endColor">#0D1FCA</color>
+    <color name="startColor1">#656566</color>
+    <color name="endColor1">#FFFFFF</color>
+    <color name="centerColor1">#DADADB</color>
+    <color name="buttonColor">#FAD104</color>
+    <color name="black">#000000</color>
+</resources>

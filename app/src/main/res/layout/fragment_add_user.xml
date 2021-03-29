@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/endColor1"
+    android:layout_height="match_parent"
+    tools:context=".Registeration">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ADD_UserName"
+        android:textColorHint="#050505"
+        android:textColor="#050505"
+        android:hint="UserName">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ADD_PassWord"
+        android:layout_below="@+id/ADD_UserName"
+        android:hint="Password"
+        android:textColor="#050505"
+        android:textColorHint="#050505"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp">
+
+    </EditText>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Add"
+        android:layout_below="@+id/ADD_PassWord"
+        android:text="ADD"
+        android:background="@drawable/button_shape3"
+        android:layout_marginTop="20dp">
+
+    </Button>
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

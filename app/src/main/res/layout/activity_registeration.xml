@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_color"
+    android:layout_height="match_parent"
+    tools:context=".Registeration">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditTextUserName"
+        android:textColorHint="#050505"
+        android:textColor="#050505"
+        android:hint="UserName">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditTextPassWord_R"
+        android:layout_below="@+id/EditTextUserName"
+        android:hint="Password"
+        android:textColor="#050505"
+        android:textColorHint="#050505"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditTextEmail_R"
+        android:textColorHint="#050505"
+        android:hint="Email"
+        android:textColor="#050505"
+        android:layout_below="@id/EditTextPassWord_R"
+        android:layout_marginTop="20dp">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditTextRule"
+        android:hint="Rule"
+        android:textColor="#050505"
+        android:textColorHint="#050505"
+        android:layout_below="@+id/EditTextEmail_R"
+        android:layout_marginTop="20dp">
+
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Registerbuuton"
+        android:layout_below="@+id/EditTextRule"
+        android:text="Rigster"
+        android:background="@drawable/button_shape3"
+        android:onClick="rigesterUser_R"
+        android:layout_marginTop="20dp">
+
+    </Button>
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

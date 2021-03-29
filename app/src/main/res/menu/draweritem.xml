@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+        <item
+            android:title="Home"
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:checkable="true">
+        </item>
+
+
+
+        <item
+            android:title="Operation Mode">
+            <menu>
+                <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_level1"
+                    android:icon="@drawable/ic_looks_one_black_24dp"
+                    android:title="Level 1">
+                </item>
+                    <item
+                        android:id="@+id/nav_level2"
+                        android:icon="@drawable/ic_looks_two_black_24dp"
+                        android:title="Level 2">
+                    </item>
+                    <item
+                        android:id="@+id/nav_level3"
+                        android:icon="@drawable/ic_looks_3_black_24dp"
+                        android:title="Level 3">
+                    </item>
+                </group>
+            </menu>
+        </item>
+
+
+    <item
+        android:title="Accounts">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_add_user"
+                    android:icon="@drawable/ic_person_add_black_24dp"
+                    android:title="Add User">
+                </item>
+                <item
+                android:id="@+id/nav_rest_password"
+                android:icon="@drawable/ic_build_black_24dp"
+                android:title="Rest Password">
+                </item>
+                <item
+                    android:id="@+id/nav_user_list"
+                    android:icon="@drawable/ic_list_black_24dp"
+                    android:title="User List">
+                </item>
+                <item
+                    android:id="@+id/nav_delete_user"
+                    android:icon="@drawable/ic_delete_black_24dp"
+                    android:title="Delete User">
+                </item>
+
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Data">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:title="Operation Details"
+                    android:id="@+id/nav_operation_detail"
+                    android:icon="@drawable/ic_details_black_24dp">
+                </item>
+                <item
+                    android:title="Access Information"
+                    android:id="@+id/nav_access_info"
+                    android:icon="@drawable/ic_info_black_24dp">
+                </item>
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Other">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:title="Contact us"
+                    android:id="@+id/nav_about_us"
+                    android:icon="@drawable/ic_error_outline_black_24dp">
+                </item>
+                <item
+                    android:title="Logout"
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_archive_black_24dp">
+                </item>
+
+            </group>
+        </menu>
+    </item>
+
+
+
+
+</menu>
